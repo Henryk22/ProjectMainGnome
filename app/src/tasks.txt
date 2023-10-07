@@ -1,0 +1,28 @@
+1. Создать MainPage, AllCategoriesPage, AllProductsPage, ProductsByCategoryPage, SingleProductPage, CartPage, NotFoundPage
+2. Создать NavMenu и Footer
+3. настроить роутинг
+
+4. Создать store, подключить к приложению
+5. Создать categoriesReducer, создать loadAllCategoriesAction, который принимает массив с категориями и записывает его в state, добавить этот редьюсер в rootReducer
+6. Написать запрос getAllCategories (/categories/all) и выводит полученные данные в консоль
+
+
+7. Отрисовать карточки категорий: 1) стилизовать карточки/контейнер, 2) названия категорий должны с большой буквы
+8. При клике на карточку категории перебрасывать на роут /categories/:category
+9. При перебрасывании на роут /categories/:category отрисовывать карточки товаров данной категории:
+  - Создать productsByCategoryReducer, loadProductsByCategoryAction, добавить action в корневой редьюсер
+  - Написать функцию, отправляющую fetch-запрос по ссылке https://fakestoreapi.com/products/category/:category и записывающую полученные данные в состояние (вызвать loadProductsByCategoryAction)
+  - Достать состояние из store в ProductsByCategoryPage, отрисовать карточки (ProductsContainer, ProductCard). ProductsContainer импортировать в ProductsByCategoryPage
+
+10. При переходе на страницу AllProductsPage отрисовывать карточки всех товаров:
+  - Создать allProductsReducer, loadAllProductsAction, добавить AllProductsReducer в корневой редьюсер
+  - Написать функцию, отправляющую fetch-запрос по ссылке http://localhost:3333/products/all и записывающую полученные данные в состояние (вызвать loadAllProductsAction)
+  - Достать состояние из store в ProductsByCategoryPage, отрисовать карточки (ProductsContainer, ProductCard). ProductsContainer импортировать в AllProductsPage
+  11. При клике на карточку товара перебрасывать на роут '/products/:id' (SingleProductPage)
+  12. При переходе на страницу SingleProductPage отрисовывать страницу с описанием конкретного продукта (по ID из роута):
+ - Создать singleProductReducer, loadSingleProductAction, добавить singleProductReducer в корневой редьюсер
+ - Написать функцию, отправляющую fetch-запрос по ссылке https://fakestoreapi.com/products/:id и записывающую полученные данные в состояние (вызвать loadSingleProductAction)
+ - В SingleProductPage вытащить state (объект) из редьюсера и отрисовать элементы страницы
+  
+
+НУЖНО ДОБАВИТЬ PAGE ALL SALES Скидки

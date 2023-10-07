@@ -1,0 +1,25 @@
+1. Создать MainPage, AllCategoriesPage, AllProductsPage, ProductsByCategoryPage, SingleProductPage, CartPage, NotFoundPage
+2. Создать NavMenu и Footer
+3. Настроить роутинг (npm i react-router-dom)
+4. Создать store, подключить к приложению (npm i redux react-redux redux-thunk)
+5. Создать categoriesReducer, создать loadAllCategoriesAction, который принимает массив с категориями и записывает его в state, добавить этот редьюсер в rootReducer
+6. Написать запрос getAllCategories (https://fakestoreapi.com/products/categories) и выводит полученные данные в консоль
+7. Отрисовать карточки категорий: 1) стилизовать карточки/контейнер, 2) названия категорий должны с большой буквы
+8. При клике на карточку категории перебрасывать на роут /categories/:category 
+9. При перебрасывании на роут /categories/:category отрисовывать карточки товаров данной категории:
+  - Создать productsByCategoryReducer, loadProductsByCategoryAction, добавить productsByCategoryReducer в корневой редьюсер
+  - Написать функцию, отправляющую fetch-запрос по ссылке https://fakestoreapi.com/products/category/:category и записывающую полученные данные в состояние (вызвать loadProductsByCategoryAction)
+  - Достать состояние из store в ProductsByCategoryPage, отрисовать карточки (ProductsContainer, ProductCard). ProductsContainer импортировать в ProductsByCategoryPage
+  - Стилизовать ProductCard и ProductsContainer
+10. При переходе на страницу AllProductsPage отрисовывать карточки всех товаров:
+  - Создать allProductsReducer, loadAllProductsAction, добавить allProductsReducer в корневой редьюсер
+  - Написать функцию, отправляющую fetch-запрос по ссылке https://fakestoreapi.com/products и записывающую полученные данные в состояние (вызвать loadAllProductsAction)
+  - Достать состояние из store в AllProductsPage, отрисовать карточки (ProductsContainer, ProductCard). ProductsContainer импортировать в AllProductsPage
+11. При клике на карточку товара перебрасывать на роут '/products/:id' (SingleProductPage)
+12. При переходе на страницу SingleProductPage отрисовывать страницу с описанием конкретного продукта (по ID из роута):
+ - Создать singleProductReducer, loadSingleProductAction, добавить singleProductReducer в корневой редьюсер
+ - Написать функцию, отправляющую fetch-запрос по ссылке https://fakestoreapi.com/products/:id и записывающую полученные данные в состояние (вызвать loadSingleProductAction)
+ - В SingleProductPage вытащить state (объект) из редьюсера и отрисовать элементы страницы
+13. При клике на кнопку категории в SingleProductPage перебрасывать на страницу с продуктами этой категории
+14. Добавить кнопку 'add to cart' на ProductCard и на SingleProductPage
+15. Реализовать добавление продуктов в корзину при клике не кнопку 'add to cart'

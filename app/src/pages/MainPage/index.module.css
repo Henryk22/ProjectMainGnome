@@ -1,0 +1,163 @@
+.sale_container {
+    margin-top: 77px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: #A1E2EB;
+    }
+   
+    .sale_btn {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 25px 50px;
+    margin-left: 3px;
+    }
+   
+    .text {
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+    margin-left: 30px;
+   
+    }
+   
+    .text p:nth-child(2) {
+    font-size: 53px;
+    margin-bottom: 60px;
+    white-space: nowrap;
+    margin-left: 3px;
+    }
+   
+    .bush {
+    margin: -70px 0px -20px 400px;
+    }
+   
+    /* Стили для секции с каталогом */
+    .catalog_container {
+    margin: 40px 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    }
+   
+    .btn_container {
+    display: flex;
+    gap: 30px; 
+    align-items: center;
+    padding-bottom: 30px;
+    margin-left: 55px;
+    }
+   
+    .btn_cat {
+    width: 320px;
+    height: 55px;
+    background-color: transparent; 
+    color: rgb(39, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: -1.9px;
+    margin-left: 30px;
+    }
+   
+    /* Стили для секции с гномом и скидкой */
+    .dwarf_wrapper {
+    height: 555px;
+    width: 95%;
+    margin-left: 30px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-color: rgb(5, 225, 5);
+    }
+   
+    .discount_descr {
+    display: flex;
+    flex-direction: column;
+    }
+   
+    .discount_descr h1 {
+    padding-right: 20px; 
+    margin-top: 50px;
+    color: white;
+    font-size: 90px;
+    margin-bottom: -10px;
+    }
+   
+    .discount_descr h2 {
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 55px;
+    color: white;
+    letter-spacing: -3.5px;
+    }
+   
+    .error_msg {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    }
+   
+    .phone_num_inp {
+    width: 473px;
+    height: 85px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 28px;
+    }
+   
+    .phone_num_inp::placeholder {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 50px;
+    font-family: cursive;
+    }
+   
+    .discount_btn {
+    width: 473px;
+    height: 75px;
+    font-size: 35px;
+    font-weight: 700; 
+    color: white;
+    font-family: cursive;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2.4px solid white;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    }
+   
+    /* sale_container */
+    .product_container {
+    width: 320px;
+    }
+   
+    .gen_sale_container {
+    margin: 50px 0 0 30px;
+    }
+   
+    .gen_sale_container h3 {
+    color: #575959;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+   
+    .image img {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    }
+  

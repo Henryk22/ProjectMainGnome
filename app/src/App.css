@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif; 
+  }
+  
+  /* Стили для корневого элемента приложения */
+  #root {
+	max-width: 1440px; /* Максимальная ширина */
+	margin: 0 auto; /* Выравнивание по центру горизонтально */
+  }
+  
+  /* Стили для гиперссылок (ссылок) */
+  a {
+	text-decoration: none; /* Удаление подчеркивания */
+	color: black; /* Черный цвет текста для всех ссылок */
+  }
+  
+  /* Стили для всего тела страницы */
+  body {
+	background-color: #F5F5DC; 
+  }
+  
+
+
+
+
+/* * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; 
+	font-family: 'Montserrat', sans-serif; 
+  }
+  
+  
+  
+  #root {
+	
+	max-width: 1440px;
+	margin: 0 auto;
+	
+	
+  }
+  
+  a {
+	text-decoration: none;
+	color: black;
+  } 
+  
+  html {
+	background-image: url(../src/Media/fon5.jpg);
+  } */
+
+
+
+  

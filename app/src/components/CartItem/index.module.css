@@ -1,0 +1,91 @@
+
+.card {
+    border: 1px solid rgb(0, 0, 0);
+    width: 824px;
+    padding: 15px;
+    margin: 80px 0 0 30px;
+    display: flex;
+    justify-content: space-between;
+	border-radius: 4px;
+    /* align-items: center; */
+  }
+
+  .discr_cont {
+    display: flex;
+    flex-direction: column;    
+    margin-left: 20px;
+    width: 300px;       
+  }
+
+  .inc_dic {
+    display: flex; 
+    margin-top: 70px;
+    justify-content: center; 
+    align-items: center;
+    border: 1px solid black;
+    width: 160px;
+    height: 56px;
+    border-radius: 4px;
+    gap: 20px;    
+  }
+
+  .inc_dic p {
+    font-size: 24px;
+  }
+  
+  .decr_btn {  
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    padding: 10px;
+    border: none;    
+    margin: 0 5px;    
+    font-size: 40px;
+  }  
+
+  .incr_btn {    
+    color: black;
+    background-color: rgba(245, 243, 243, 0);
+    cursor: pointer;
+    padding: 10px;
+    border: none;    
+    margin: 0 5px;    
+    font-size: 40px;
+  }
+
+  .card img {
+    height:  200px;
+    width: 200px;
+    border-radius: 4%;
+    object-fit: contain;
+  } 
+
+  .price_dis {
+    display: flex; 
+    width: 300px;     
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .price_dis p:first-child {
+    color: black;
+    font-weight: 600;
+    font-size: 40px; 
+	padding-right: 50px;   
+  }
+
+  .price_dis p:nth-child(2) {
+    text-decoration: line-through; 
+    color: #7d5f5f;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 2px;
+  }
+
+ .kreuz{
+    cursor: pointer;   
+    font-size: 20px;
+    color: black;
+   
+  }

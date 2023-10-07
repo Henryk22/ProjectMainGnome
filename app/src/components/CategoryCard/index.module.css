@@ -1,0 +1,23 @@
+/* Стиль для всех карточек */
+.category_card {
+	width: 250px;
+	height: 350px;
+	margin: 0 auto;	
+	display: flex;
+	flex-direction: column;
+  justify-content: center;	
+}
+
+
+.category_card img {
+	height: 300px;
+	width: 300px;
+	border-radius: 4%;
+ 
+  
+}
+
+h3 {
+  text-align: center;
+  margin-top: 10px;
+}
