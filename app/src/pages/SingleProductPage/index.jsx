@@ -21,8 +21,7 @@ export default function SingleProductPage() {
   
   const { title, price, discont_price, description, image } = single_product_state
 
-  // console.log(single_product_state);
-
+  
   return (
     <div className={s.product_item}>
        <img src={`http://localhost:3333${image}`} alt={title} />
