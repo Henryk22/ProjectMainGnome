@@ -1,4 +1,59 @@
+/* Стили для общего контейнера продукта */
 .product_item {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  width: 900px;
+  margin: 40px auto;
+}
+
+/* Стили для изображения продукта */
+.product_item img {
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+  border-radius: 4%;
+  border: 1px solid;
+}
+
+/* Стили для заголовка продукта */
+.product_item > div p:first-child {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+/* Стили для цены продукта */
+.product_item > div p:nth-child(3) {
+  color: rgb(7, 7, 7);
+  font-weight: 700;
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+/* Стили для скидки продукта */
+.product_item > div p:last-child {
+  background-color: green;
+  color: white;
+  border-radius: 4px;
+  padding: 15px;
+  width: fit-content;
+  margin: 15px 0;
+}
+
+/* Стили для кнопки "Добавить в корзину" */
+.add_btn {
+  cursor: pointer;
+  background-color: rgb(247, 244, 159);
+  color: green;
+  border: 1px solid green;
+  border-radius: 4px;
+  padding: 10px;
+  width: fit-content;
+}
+
+/* .product_item {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -46,4 +101,4 @@
     border-radius: 4px;
     padding: 10px;
     width: fit-content;
-  }
+  } */

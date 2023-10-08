@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import s from './index.module.css'
-import logoImage from '../../Media/image1.png'
+import logoImage from '../../Media/logo.png'
 import bag from '../../Media/vector.png'
 import { selectCartItemCount } from '../../store/reducer/cartReducer'
 import {useSelector } from 'react-redux'

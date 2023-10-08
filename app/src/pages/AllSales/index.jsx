@@ -1,9 +1,9 @@
+
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getAllProducts } from '../../request/products_req'
 import ProductsContainer from '../../components/ProductsContainer'
 import SortSales from '../../components/FilterForms/SortSales'
-
 
 export default function AllSales() {
 
