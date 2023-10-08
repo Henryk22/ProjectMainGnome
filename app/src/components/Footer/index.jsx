@@ -29,8 +29,8 @@ export default function Footer() {
 		<h1>Address</h1>
 		<p className={s.strasse}><a href="Linkstraße 2, 8 OG, 10785">Linkstraße 2, 8 OG, 10785,</a></p>
 		<p className={s.strasse}>Berlin, Deutschland</p>
-		<p className={s.hours}>Working Hours:</p>
-		<p className={s.time}>24 hours a day</p>
+		<p className={s.hours}>We work for you:</p>
+		<p className={s.time}>around the clock</p>
 	  </div>
 	</div>
 	<div className={s.google}>

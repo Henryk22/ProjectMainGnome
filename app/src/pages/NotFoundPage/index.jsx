@@ -6,7 +6,6 @@ export default function NotFoundPage() {
   return (
     <div>
 
-{/* <img src={notFound} alt='NotFoundPage'/>	 */}
 <img className={s.centeredImage} src={notFound} alt="NotFoundPage" />
 
 </div>

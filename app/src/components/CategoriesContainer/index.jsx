@@ -3,8 +3,6 @@ import { useSelector } from 'react-redux'
 import CategoryCard from '../CategoryCard'
 import s from './index.module.css'
 
-
-
 export default function CategoriesContainer() {
 
 	const categories_state = useSelector(state => state.categories);
@@ -17,3 +15,4 @@ export default function CategoriesContainer() {
 	  </div>
   )
 }
+//==

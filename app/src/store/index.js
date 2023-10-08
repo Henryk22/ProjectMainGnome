@@ -17,3 +17,4 @@ const rootReducer = combineReducers({
 
 // Redux Store с корневым редюсером и применяем middleware thunk для асинхронных действий
 export const store = createStore(rootReducer, applyMiddleware(thunk));
+//=====

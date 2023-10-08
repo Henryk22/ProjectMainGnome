@@ -1,94 +1,83 @@
-.cart_cont { 
-	position: relative;
-  }
-  
-  .title_cart {
-	margin: 30px;
-  }
-  
-  .clear_btn {
-	background-color: #339933;
-	color: white;
-	margin: 30px;
-	padding: 10px;
-	width: 200px;
-	border-radius: 4px;   
-	cursor: pointer;
-	text-align: center;
-	font-size: 24px;
-   }
-  
-  .empty {
-	margin-left: 30px;
-  }
-  
-  .order { 
-   position: absolute;
-   right: 36px;
-	top: 0px;  
-	width: 496px;
-	height: 393px;
-	border: 1px solid black;
-	border-radius: 4px;
-	
-	}
-  
-	.order h2 {
-	 padding: 20px 0 0 25px;
-	  font-size: 28px;
-	}
+.cart_cont {
+  position: relative;
+}
 
-	.cart_cont h3 {
-		padding: 20px 0 0 25px;
-		 font-size: 50px;
-		 color: rgb(66, 60, 60);
-		 
-		
-		
-	   }
-  
-	.order p {
-	  padding: 50px 0 0 25px;
-	  font-size: 30px;
-	  word-spacing: 280px;
-	}
-	  
-	.pfon_ord {
-	  display: flex;
-	  flex-direction: column;
-	}
+.title_cart {
+  margin: 30px;
+}
 
+.clear_btn {
+  background-color: #339933;
+  color: white;
+  margin: 30px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 24px;
+}
 
-	  .order p {
-    padding: 50px 0 0 25px;
-    font-size: 24px;
-    word-spacing:10px;
-  }
-	  
-	
-	
-	.order input{    
-	border: 1px solid black;
-	border-radius: 4px; 
-	width: 446px; 
-	height: 73px;
-	margin: 70px 25px 25px 20px;
-	padding-left: 20px;
-	font-size: 25px;
-	}
-  
-	.order button {
-	  border: 1px solid black;
-	  border-radius: 4px; 
-	  width: 446px; 
-	  height: 73px;
-	  background-color: #339933;
-	  color: white;
-	  margin-left: 25px;      
-	  font-size: 28px;
-	  cursor: pointer;
-	}
-  
+.empty {
+  margin-left: 30px;
+}
 
-  
-	
+.order {
+  position: absolute;
+  right: 36px;
+  top: 0px;
+  width: 496px;
+  height: 393px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.order h2 {
+  padding: 20px 0 0 25px;
+  font-size: 28px;
+}
+
+.cart_cont h3 {
+  padding: 20px 0 0 25px;
+  font-size: 50px;
+  color: rgb(66, 60, 60);
+}
+
+.order p {
+  padding: 50px 0 0 25px;
+  font-size: 30px;
+  word-spacing: 280px;
+}
+
+.pfon_ord {
+  display: flex;
+  flex-direction: column;
+}
+
+.order p {
+  padding: 50px 0 0 25px;
+  font-size: 24px;
+  word-spacing: 10px;
+}
+
+.order input {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 446px;
+  height: 73px;
+  margin: 70px 25px 25px 20px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.order button {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 446px;
+  height: 73px;
+  background-color: #339933;
+  color: white;
+  margin-left: 25px;
+  font-size: 28px;
+  cursor: pointer;
+}

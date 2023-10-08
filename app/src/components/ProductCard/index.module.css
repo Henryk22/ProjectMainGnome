@@ -77,7 +77,7 @@
 
 .discounted-price {
   text-decoration: line-through; /* Перечеркивание текста */
-  color: #353131; /* Цвет для перечеркнутой цены (по вашему выбору) */
+  color: #353131; /* Цвет для перечеркнутой цены  */
   font-size: 20px;
   font-weight: 500;
   padding-left: 40px;

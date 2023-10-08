@@ -1,16 +1,9 @@
-
-
-
-
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
 import { getSingleProduct } from '../../request/products_req';
  import { Link, useParams,  } from 'react-router-dom';
 import s from './index.module.css'
 import { addToCartAction } from '../../store/reducer/cartReducer';
-
-
-
 
 export default function SingleProductPage() {
 	
@@ -21,10 +14,8 @@ export default function SingleProductPage() {
  useEffect(()=> dispatch(getSingleProduct(id)), [])
 
   const single_product_state = useSelector(state => state.singleProduct)
-
   
   const { title, price, discont_price, description, image } = single_product_state
-
   
   return (
     <div className={s.product_item}>

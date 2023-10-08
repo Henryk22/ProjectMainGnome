@@ -10,8 +10,7 @@ export default function CartItem({ id, title, price, count, image, discont_price
 	const price_disc = (discont_price ? ((discont_price * count).toFixed(2)) : price.toFixed(2))
 
 	const price_cart =  (discont_price  ? ((price * count).toFixed(2)) : '')
-   
-  
+     
 	return (      
 	  <div className={s.card}>
 		<div>
@@ -39,3 +38,4 @@ export default function CartItem({ id, title, price, count, image, discont_price
    
 	)
   }
+  //==

@@ -5,11 +5,9 @@ import s from './index.module.css'
 import { clearCartAction } from '../../store/reducer/cartReducer';
 import { sendOrder } from '../../request/products_req';
 
-
 export default function Cart() {
 
   const cart_state = useSelector(state => state.cart);
-
 
   useEffect(() => {
     localStorage.setItem('local_cart', JSON.stringify(cart_state))}, [cart_state]);
@@ -79,3 +77,5 @@ export default function Cart() {
     </div>
   );
 }
+
+//==

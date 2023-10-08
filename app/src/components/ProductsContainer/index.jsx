@@ -2,10 +2,8 @@ import React from 'react'
 import ProductCard from '../ProductCard'
 import s from './index.module.css'
 
-
 export default function ProductsContainer({ products, category_show }) {
 
-  
 
   return (
     <div className={s.container}>

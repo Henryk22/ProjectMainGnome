@@ -3,7 +3,7 @@ import s from './index.module.css'
 import { Link } from 'react-router-dom'
 
 export default function CategoryCard({id, title, image }) {
-     
+   
 
 	return (
 	 <Link to={`/categories/${id}`}>
@@ -15,3 +15,4 @@ export default function CategoryCard({id, title, image }) {
 			</Link>
   )
 }
+//==

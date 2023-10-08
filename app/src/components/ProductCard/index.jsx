@@ -28,13 +28,12 @@ export default function ProductCard({ id, title,discont_price, image, price }) {
             <p>{price}$</p>
             )}
             <p>{ countDiscont}%</p>
-
 			
         </div>          
-          
+         
 
         <p className={s.title}>{ title }</p>  
-              
+             
         
       </Link> 
       <div
@@ -48,4 +47,4 @@ export default function ProductCard({ id, title,discont_price, image, price }) {
   )
 }
 
-
+//=====

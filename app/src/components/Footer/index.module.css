@@ -1,227 +1,114 @@
 /* Стили для блока с Google Maps и дополнительной информацией */
 .google {
-	background-color: rgb(187, 187, 187);
-	padding: 4px 10px;
-	color: white;
-	font-size: 25px;
-  }
-  
-  /* Стили для футера */
-  .h5 {
-	height: 40px;
-	display: flex;
-	justify-content: center;
-	gap: 20px;
-	align-items: center;
-	background-color: #06d945;
-	position: fixed;
-	width: 100%;
-	left: 0;
-	bottom: 0;
-  } 
-  
-  /* Стили для общего контейнера футера */
-  .wrapper {
-	color: #ffffff;
-	margin: 90px 40px;
-	width: 100%;
-  }
-  
-  /* Стили для контейнера с текстовой иконкой */
-  .text_container {
-	display: flex;
-	justify-content: space-between;
-  }
-  
-  /* Стили для заголовка */
-  h1 {
-	color: #020202;
-	font-size: 40px;
-	font-weight: 700;
-	margin: 30px auto;
-  }
-  
-  /* Стили для номера телефона */
-  .number {
-	color: #dff01a;
-	margin-top: 25px;
-	font-weight: 600;
-	font-size: 55px;
-  }
-  
-  /* Стили для адреса */
-  .strasse {
-	color: #000;
-	font-size: 40px;
-	font-weight: 600;
-  }
-  
-  /* Стили для текста "Working Hours" */
-  .hours {
-	color: #000;
-	margin-top: 20px;
-	font-size: 25px;
-	font-weight: 500; 
-  }
-  
-  /* Стили для времени работы */
-  .time {
-	color: #000;
-	font-size: 24px;
-	font-weight: 600;
-  }
-  
-  /* Стили для иконок социальных сетей */
-  .icon {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 20px;
-  }
-  
-  /* Стили для изображений иконок социальных сетей */
-  .content_cont img {
-	width: 70px;
-	height: 58px;
-	margin-bottom: 8px;
-  }
-  
-  /* Стили для контейнера с иконками и текстом социальных сетей */
-  .social_media_content {
-	display: flex;
-	gap: 35px;
-	margin-top: 33px;
-  }
-  
-  /* Стили для текста социальных сетей */
-  .content_cont p {
-	font-size: 15px;
-	font-weight: 600;
-  }
-  
-  /* Стили для карты */
-  .map {
-	margin-top: 50px;
-	width: 100%;
-  }
-  
-  /* Стили для ссылки в номере телефона */
-  .number a {
-	text-decoration: none;
-	color: black;
-	font-weight: medium;
-  }
-  
+  background-color: rgb(187, 187, 187);
+  padding: 4px 10px;
+  color: white;
+  font-size: 25px;
+}
 
+/* Стили для футера */
+.h5 {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  background-color: #06d945;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
 
+/* Стили для общего контейнера футера */
+.wrapper {
+  color: #6e6565;
+  margin: 90px 40px;
+  width: 100%;
+}
 
+/* Стили для контейнера с текстовой иконкой */
+.text_container {
+  display: flex;
+  justify-content: space-between;
+}
 
-/* .google {
-	background-color: rgb(187, 187, 187);
-	padding: 4px 10px;
-	color: white;
-	font-size: 25px;
-  }
-
-  .h5{
-	height: 40px;
-		display: flex;
-		justify-content: center;
-		gap: 20px;
-		align-items: center;
-		background-color: #06d945;
-		position: fixed;
-		width: 100%;
-		left: 0;
-		bottom: 0;
-	} 
-	
-  .wrapper{
-	color: #ffffff;
-	margin: 90px 40px;
-	width: 100%;
-  }
-  
-  .text_container{
-	display: flex;
-	justify-content: space-between;
-  }
-  
-  h1{
-	color: #020202;
-	font-size: 40px;
-	font-weight: 700;
+/* Стили для заголовка */
+h1 {
+  color: #020202;
+  font-size: 40px;
+  font-weight: 700;
   margin: 30px auto;
-  }
-  
-  .number{
-	color: #dff01a;
-	margin-top: 25px;
-	font-weight: 600;
-	font-size: 70px;
-  }
-  
-  .strasse{
+}
+
+/* Стили для номера телефона */
+.number {
+  color: #dff01a;
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 44px;
+}
+
+/* Стили для адреса */
+.strasse {
   color: #000;
-	font-size: 40px;
-	font-weight: 600;
-  }
-  
-  
-  .hours{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* Стили для текста "Working Hours" */
+.hours {
   color: #000;
-	margin-top: 20px;
-	font-size: 18px;
-	font-weight: 500; 
-  }
-  
-  .time{
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* Стили для времени работы */
+.time {
   color: #000;
-	font-size: 24px;
-	font-weight: 600;
-  }
-  
-  .icon{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Стили для иконок социальных сетей */
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 20px;
-  }
-  
-  
-  
-  .content_cont img{
-	width: 70px;
-	height: 58px;
-	margin-bottom: 8px;
-  }
-  
-  .social_media_content{
-	display: flex;
-	gap: 35px;
-	margin-top: 33px;
-  }
-  
-  .content_cont p{
-	font-size: 15px;
-	font-weight: 600;
-  }
-  
-  .map{
-	margin-top: 50px;
-	width: 100%;
-  }
-  
-  .number a {
-	text-decoration: none;
-	color: black;
-	font-weight: medium;
-	
-  }
-  
- 
- 
- 
-  */
+}
+
+/* Стили для изображений иконок социальных сетей */
+.content_cont img {
+  width: 70px;
+  height: 58px;
+  margin-bottom: 8px;
+}
+
+/* Стили для контейнера с иконками и текстом социальных сетей */
+.social_media_content {
+  display: flex;
+  gap: 35px;
+  margin-top: 33px;
+}
+
+/* Стили для текста социальных сетей */
+.content_cont p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Стили для карты */
+.map {
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* Стили для ссылки в номере телефона */
+.number a {
+  text-decoration: none;
+  color: black;
+  font-weight: medium;
+}

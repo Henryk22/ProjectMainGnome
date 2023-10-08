@@ -3,11 +3,8 @@ import { useDispatch } from 'react-redux';
 import s from './index.module.css'
 import { filterProductsAction, sortProductsAction } from '../../../store/reducer/allProductsReducer';
 
-
 export default function SortSales() {
   const dispatch = useDispatch();
-
-
 
   const order = (e) => {
     dispatch(sortProductsAction(e.target.value));

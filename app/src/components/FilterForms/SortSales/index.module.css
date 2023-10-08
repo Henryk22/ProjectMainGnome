@@ -1,46 +1,45 @@
-.container{   
-    display: flex;
-       align-items: center;    
-  }
-  
-  .title {
-	font-size: 30px;
-	font-weight: 600;
-
-  }
-  
-  .price {
-      display: inline-flex;
-      align-items: center;
-      margin-top: 30px;
-      margin-bottom: 30px;
-      margin-left: 40px;
-      gap: 10px;
-  }
-  
-  .price input {
-      width: 103px;
-      height: 42px;
-      border-radius: 4px;
-      padding-left: 10px;
-      margin-left: 20px;
-      border: 1px solid black;
-  }
-  
-  .price button {
-	display: none;
+.container {
+  display: flex;
+  align-items: center;
 }
-  
-  .sorted {
-      display: inline-flex;
-      align-items: center;
-      margin-left: 100px;
-      gap: 30px; 
-  }
-  
-  .sorted select {
-      width: 219px;
-      height: 40px;
-      border-radius: 4px;
-      border: 1px solid black;
-  }
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.price {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  gap: 10px;
+}
+
+.price input {
+  width: 103px;
+  height: 42px;
+  border-radius: 4px;
+  padding-left: 10px;
+  margin-left: 20px;
+  border: 1px solid black;
+}
+
+.price button {
+  display: none;
+}
+
+.sorted {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 100px;
+  gap: 30px;
+}
+
+.sorted select {
+  width: 219px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
