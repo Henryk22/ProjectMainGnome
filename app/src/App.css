@@ -2,22 +2,52 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
-/* Стили для корневого элемента приложения */
+
+/* Обновленные стили для корневого элемента приложения */
 #root {
-  max-width: 1440px; /* Максимальная ширина */
-  margin: 0 auto; /* Выравнивание по центру горизонтально */
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-/*  гиперссылки */
+/* Стили для гиперссылок */
 a {
-  text-decoration: none; /* Удаление подчеркивания */
-  color: black; /* Черный цвет текста для всех ссылок */
+  text-decoration: none;
+  color: rgb(56, 52, 52); /*  цвет текста для всех ссылок */
 }
 
-/* для всего тела страницы */
+/* Стили для всего тела страницы */
 body {
   background-color: #f5f5dc;
+  font-family: "Roboto", sans-serif; /* Используем шрифт "Roboto" */
+  color: rgb(59, 55, 55); 
 }
+
+
+
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+} */
+
+/* Стили для корневого элемента приложения */
+/* #root {
+  max-width: 1440px; 
+  margin: 0 auto;   
+} */
+
+/*  гиперссылки */
+/* a {
+  text-decoration: none; 
+  color: black; 
+}    */
+
+/* для всего тела страницы */
+/* body {
+  background-color: #f5f5dc;
+} */

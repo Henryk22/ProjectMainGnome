@@ -27,7 +27,9 @@ export default function ProductCard({ id, title,discont_price, image, price }) {
             (
             <p>{price}$</p>
             )}
-            <p>{ countDiscont}%</p>
+              {/* <p>{ countDiscont}%</p> */}
+
+              {countDiscont !== null && countDiscont >0 && <p>{ countDiscont}%</p>}
 			
         </div>          
          
